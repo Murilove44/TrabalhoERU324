@@ -58,15 +58,14 @@ section {
 
 .vinho {
     border-radius: 15px;
-    /* background-color: var(--vinho); */
     background: radial-gradient(circle at center, #3a0a0a 0%, #2c0000 100%);
     display: flex;
     gap: 1rem;
 }
 
 .vinho img {
-    width: 20%;
-    height: auto;
+    width: 35%;
+    height: 100%;
 }
 
 .vinho-txt {
@@ -77,7 +76,7 @@ section {
 
 .vinho_preco {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 #preco_antes {
@@ -86,12 +85,12 @@ section {
 
 .vinho i {
     font-family: 'Outfit', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--fonte);
 }
 
 .vinho p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Playfair Display', serif;
     color: var(--vinho-txt);
     display: flex;
@@ -192,7 +191,9 @@ button {
   overflow: hidden;
   border-radius: 0.6em;
   cursor: pointer;
-  width: 60%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .gradient {
