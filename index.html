@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,26 +13,18 @@
 <body>
   <header>
     <h1>Elementos Visuais em UX</h1>
-    <p>Veja como pequenas decisões de design influenciam a experiência do usuário.</p>
+    <p>Nesta página apresentamos exemplos visuais inspirados em interfaces de plataformas de streaming para demonstrar como decisões de design podem influenciar a experiência do usuário.</p>
+    <strong>ERU324 - Metodologia de Pesquisa</strong>
   </header>
 
   <main>
-    <section class="main-txt">
-        <h1>Nesta página apresentamos exemplos visuais inspirados em interfaces de plataformas de streaming para demonstrar como decisões de design podem influenciar a experiência do usuário.</h1>
-    </section>
     <!-- Seção Cores -->
     <section class="comparacao">
       <h2>Cores</h2>
       <div class="exemplos">
-        <div class="bom">
-          <h3>Bom</h3>
-          <div class="amostra cor-bom"></div>
-          <p>Paleta harmônica e com bom contraste, que facilita a leitura e transmite confiança.</p>
-        </div>
-        <div class="ruim">
-          <h3>Ruim</h3>
-          <div class="amostra cor-ruim"></div>
-          <p>Combinação de cores com baixo contraste e visual cansativo.</p>
+        <div class="netflix">
+            <img class="cores_exemplo1" src="Wednesday-slide16 (1).gif" alt="exemplo1">
+            <p class="netflix-txt" >O modo escuro reduz a intensidade da luz da tela, o que diminui a fadiga ocular ao assistir no escuro. A interface escura também faz o conteúdo do filme se destacar sem brilhos periféricos. Além disso, é necessário ter paleta harmônica e com bom contraste, que facilita a leitura e transmite confiança.</p>
         </div>
       </div>
     </section>
@@ -42,12 +34,14 @@
       <h2>Tipografia</h2>
       <div class="exemplos">
         <div class="bom">
-          <h3>Bom</h3>
-          <p class="texto-bom">Boa legibilidade e hierarquia clara de títulos e parágrafos.</p>
+          <h2>Título Claro e Legível</h2>
+          <p class="texto-bom">Este texto usa uma fonte sem serifa, com espaçamento adequado entre linhas (line-height: 1.6) e tamanho de fonte apropriado. Resultado: leitura 38% mais rápida e melhor compreensão.</p>
+          <p class="tempomedio">Tempo médio de leitura: 12s</p>
         </div>
         <div class="ruim">
-          <h3>Ruim</h3>
-          <p class="texto-ruim">Fonte decorativa e difícil de ler, prejudicando a compreensão.</p>
+          <h3 class="titulo_ruim" >Título Decorativo</h3>
+          <p class="texto-ruim">Este texto usa fonte decorativa difícil de ler com espaçamento ruim. Usuários levam mais tempo para processar e frequentemente desistem da leitura.</p>
+          <p class="tempomedio">Tempo médio de leitura: 19s</p>
         </div>
       </div>
       <p>Pense em um site de vinhos finos ou de uma marca de luxo, o design visual precisa estar alinhado com a identidade da marca e o contexto de uso, o que é um fator hedônico crucial na UX. </p>
@@ -66,8 +60,15 @@
             </button>
         </section>
       </div>
+      <p>O desing utiliza fontes finas e elegantes e que essa escolha visual comunica exclusividade, qualidade e confiança, reforçando a identidade de uma marca de luxo. Essa mesma lógica se aplica ao streaming: o conteúdo é o produto premium. A tipografia limpa e a organização visual do texto em títulos de filmes e séries sugere qualidade cinematográfica. Combinada ao modo escuro, ela foca a atenção e diminui a fadiga ocular, transformando a leitura em uma experiência de consumo confiável.</p>
     </section>
-
+    <!-- Seção Hierarquia -->
+    <section class="hierarquia">
+        <h2>Hierarquia Visual e Foco</h2>
+        <p>Plataformas de streaming costumam mostrar séries populares ou novas temporadas no topo da tela, com imagens grandes ou banners animados.</p>
+        <img class="hierarquia_img" src="exemplo_hierarquia.jpeg" alt="exemplo de hierarquia">
+        <i class="hierarquia_exemplo" >Exemplo de Interface da plataforma de streaming <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root">PrimeVideo</a>, da <a href="https://www.amazon.com.br">Amazon</a>.</i>
+    </section>
     <!-- Seção Layout -->
     <section class="comparacao">
       <h2>Layout</h2>
@@ -100,13 +101,6 @@
           <p>Imagem confusa, com muito texto e cores que dificultam a leitura.</p>
         </div>
       </div>
-    </section>
-    <!-- Seção Hierarquia -->
-    <section class="hierarquia">
-        <h2>Hierarquia Visual e Foco</h2>
-        <p>Plataformas de streaming costumam mostrar séries populares ou novas temporadas no topo da tela, com imagens grandes ou banners animados. Exemplo de Interface da plataforma de streaming <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root">PrimeVideo</a>, da <a href="https://www.amazon.com.br">Amazon</a>:</p>
-        <img class="hierarquia_img" src="exemplo_hierarquia.jpeg" alt="exemplo de hierarquia">
-        <p> Isso chama a atenção do usuário e facilita a escolha, mas se usado em excesso pode sobrecarregar a tela e dificultar a descoberta de outros conteúdos.</p>
     </section>
   </main>
 
