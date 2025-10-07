@@ -3,13 +3,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f8f9fa;
+  background: #0a0a0a;
   color: #333;
   line-height: 1.6;
 }
 
 p {
   text-align: justify;
+  color: var(--fonte);
+  text-shadow: -3px 2px 8px black;
 }
 
 :root {
@@ -20,11 +22,12 @@ p {
     --fundo2: #00A5E0;
     --vinho: #1C090B;
     --vinho-txt: #e2a45e;
+    --roxo: #352363d5;
 }
 
 header {
   text-align: center;
-  background: var(--fundo);
+  background: radial-gradient(circle at center, var(--roxo) 0%, var(--body) 100%);
   color: var(--fonte);
   padding: 2rem 1rem;
 }
@@ -42,6 +45,8 @@ main {
 
 h1, h2, h3 {
   margin-bottom: 0.5rem;
+  color: var(--fonte);
+  text-shadow: -3px 2px 8px black;
 }
 
 section {
@@ -185,9 +190,14 @@ section {
      height: auto;
 }
 
+.hierarquia a {
+  color: var(--fundo2);
+}
+
 .hierarquia_exemplo {
   padding: 5px;
   font-size: 0.9rem;
+  color: var(--fonte);
 }
 
 h3 {
@@ -229,10 +239,14 @@ h3 {
 
 footer {
   text-align: center;
-  background: var(--fundo);
+  background: radial-gradient(circle at center, var(--roxo) 0%, var(--body) 100%);
   color: var(--fonte);
   padding: 1rem;
   margin-top: 2rem;
+}
+
+footer p {
+  text-align: center;
 }
 
 /* botão */
