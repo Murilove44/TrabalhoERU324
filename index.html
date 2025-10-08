@@ -8,7 +8,7 @@
     <!-- para as fontes -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Henny+Penny&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tapestry&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -35,7 +35,7 @@
       <div class="exemplos">
         <div class="bom">
           <h2>Título Claro e Legível</h2>
-          <p class="texto-bom">Este texto usa uma fonte sem serifa, com espaçamento adequado entre linhas (line-height: 1.6) e tamanho de fonte apropriado. Resultado: leitura 38% mais rápida e melhor compreensão.</p>
+          <p class="texto-bom">Este texto usa uma fonte sem serifa, com espaçamento adequado entre linhas (line-height: 1.6) e tamanho de fonte apropriado. Resultado: leitura significativamente mais rápida e melhor compreensão.</p>
           <p class="tempomedio">Tempo médio de leitura: 12s</p>
         </div>
         <div class="ruim">
@@ -44,7 +44,7 @@
           <p class="tempomedio">Tempo médio de leitura: 19s</p>
         </div>
       </div>
-      <p>Pense em um site de vinhos finos ou de uma marca de luxo, o design visual precisa estar alinhado com a identidade da marca e o contexto de uso, o que é um fator hedônico crucial na UX. </p>
+      <p>A tipografia não serve apenas para legibilidade, ela comunica valores e cria expectativas. Veja este exemplo fictício de um e-commerce de vinhos premium:</p>
       <div class="vinho">
         <img src="vinho.png" alt="Vinho">
         <section class="vinho-txt">
@@ -60,7 +60,7 @@
             </button>
         </section>
       </div>
-      <p>O desing utiliza fontes finas e elegantes e que essa escolha visual comunica exclusividade, qualidade e confiança, reforçando a identidade de uma marca de luxo. Essa mesma lógica se aplica ao streaming: o conteúdo é o produto premium. A tipografia limpa e a organização visual do texto em títulos de filmes e séries sugere qualidade cinematográfica. Combinada ao modo escuro, ela foca a atenção e diminui a fadiga ocular, transformando a leitura em uma experiência de consumo confiável.</p>
+      <p>Note como as fontes elegantes (serifadas) e a paleta de cores sóbrias (vinho escuro + dourado) transmitem exclusividade e sofisticação. Isso é design hedônico: quando elementos visuais provocam respostas emocionais positivas. A mesma estratégia é usada em plataformas de streaming: Netflix, Prime Video e Disney+ usam tipografia limpa e modo escuro para posicionar o conteúdo como produto premium. A escolha visual não é apenas estética, ela aumenta a percepção de qualidade cinematográfica e reduz a fadiga ocular, criando uma experiência mais imersiva.</p>
     </section>
     <!-- Seção Hierarquia -->
     <section class="hierarquia">
@@ -68,23 +68,60 @@
         <p>Plataformas de streaming costumam mostrar séries populares ou novas temporadas no topo da tela, com imagens grandes ou banners animados.</p>
         <img class="hierarquia_img" src="exemplo_hierarquia.jpeg" alt="exemplo de hierarquia">
         <i class="hierarquia_exemplo" >Exemplo de Interface da plataforma de streaming <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root">PrimeVideo</a>, da <a href="https://www.amazon.com.br">Amazon</a>.</i>
+        <section class="destaque">
+            <div class="clara">
+              <h2>Com Hierarquia Clara ✅</h2>
+                <p>85% dos usuários notam o destaque</p>
+            </div>
+            <div class="nao_clara">
+              <h2>Sem Hierarquia Clara ❌</h2>
+              <p>23% dos usuários encontram o conteúdo</p>
+            </div>
+        </section>
     </section>
     <!-- Seção Layout -->
     <section class="comparacao">
       <h2>Layout</h2>
       <div class="exemplos">
-        <div class="bom">
-          <h3>Bom</h3>
-          <div class="mockup layout-bom"></div>
-          <p>Organização limpa, com destaque para o conteúdo principal e navegação intuitiva.</p>
-        </div>
-        <div class="ruim">
-          <h3>Ruim</h3>
-          <div class="mockup layout-ruim"></div>
-          <p>Excesso de elementos e cores conflitantes, causando confusão visual.</p>
-        </div>
+        <h3 class="layout_bom">Exemplo fictício de layout com organização limpa, destaque para o conteúdo principal e navegação intuitiva:</h3>
+          <img src="layout_bom.jpeg" alt="layout_bom">
+          <section class="porque-txt">
+            <h4>Por que funciona?</h4>
+            <ul>
+              <li>✓ Destaque grande no topo</li>
+              <li>✓ Categorias claras e separadas</li>
+              <li>✓ Espaçamento para tocar fácil</li>
+              <li>✓ Thumbnails grandes (min 48x48px)</li>
+            </ul>
+          </section>
+          <h3 class="layout_bom">Exemplo fictício de layout com organização limpa, destaque para o conteúdo principal e navegação intuitiva:</h3>
+          <img src="layout_ruim.jpeg" alt="layout_bom">
+          <section class="porque-txt">
+            <h4>Por que falha?</h4>
+            <ul>
+              <li>✗ Tudo misturado</li>
+              <li>✗ Cores conflitantes</li>
+              <li>✗ Itens muito pequenos</li>
+              <li>✗ Difícil tocar certo</li>
+            </ul>
+          </section>
       </div>
     </section>
+    <!-- Encerramento -->
+     <section class="encerramento">
+      <h1>Como a percepção visual influencia a experiência do usuário em plataformas de streaming de vídeo?</h1>
+      <p>Cada decisão visual impacta diretamente métricas de engajamento, tempo de uso e satisfação. O design não é apenas estética, é estratégia de negócio e experiência do usuário.</p>
+      <h2>94% dos usuários julgam um site pela aparência visual</h2>
+     </section>
+     <section class="fontes">
+      <h4>Fontes ulizadas para os dados desde site:</h4>
+      <ul>
+        <li><i>Stanford Persuasive Technology Lab (2002) - "How Do People Evaluate a Web Site's Credibility?"</i></li>
+        <li><i>Nielsen Norman Group - Estudos sobre hierarquia visual e eye-tracking</i></li>
+        <li><i>Web Content Accessibility Guidelines (WCAG) 2.1</i></li>
+        <li><i>Dados ilustrativos baseados em princípios estabelecidos de UX/UI Design</i></li>
+      </ul>
+     </section>
   </main>
   <footer>
     <p>Projeto acadêmico – Exemplo de elementos visuais em UX</p>
