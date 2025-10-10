@@ -32,6 +32,10 @@ header {
   padding: 2rem 1rem;
 }
 
+header a {
+  color: var(--fundo2);
+}
+
 main {
   max-width: 900px;
   margin: 2rem auto;
